@@ -1,0 +1,10 @@
+a = 3
+b = 5
+addition = a + b
+substraction = a - b
+multiplication = a * b
+division = a / b
+print(f'{a}+{b}={addition}')
+print(f'{a}-{b}={substraction} ')
+print(f'{a}*{b}={multiplication}')
+print(f'{a}/{b}={division}')
