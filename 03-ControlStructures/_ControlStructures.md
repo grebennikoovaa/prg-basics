@@ -478,7 +478,7 @@ stalj@uek.krakow.pl
     sum = 0
     
     for i n range(...):
-        if not i%2...:
+        if not i%2:
             continue
         sum += ...
     
