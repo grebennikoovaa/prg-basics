@@ -1,7 +1,7 @@
 ###
 # Credit card payment 
 #
-account_balance = 500
+account_balance = 500    
 total_payment = int(input('Enter payment:'))
 
 if total_payment <= account_balance:
