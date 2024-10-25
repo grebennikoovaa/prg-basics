@@ -1,5 +1,5 @@
 ###
-# Checking login and password
+# Checking login and password  
 #
 login = 'joe'
 password = 'abcd'

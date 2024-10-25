@@ -1,5 +1,5 @@
 ###
-# Checks whether at least one number entered
+# Checks whether at least one number entered  
 # from the keyboard is not negative
 # 
 x = int(input('Enter first number: '))
