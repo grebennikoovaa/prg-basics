@@ -10,7 +10,7 @@ bonus = 0.15 # 15%
 if is_bonus == True :
     total_salary = basic_salary + (basic_salary * bonus)
 else:
-    total_salary = basic_salary
+    total_salary = basic_salary 
 
 print(f'Basic salary: {basic_salary}')
 print(f'Bonus included? {is_bonus}')
