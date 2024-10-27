@@ -11,4 +11,13 @@ elif x < 0 and y > 0:
 elif x < 0 and y < 0:
     print(f"Point({x},{y}) is in the third quadrant of the coordinate system")
 elif x > 0 and y < 0:
-    print((f"Point({x},{y}) is in the fourth quadrant of the coordinate system"))
+    print(f"Point({x},{y}) is in the fourth quadrant of the coordinate system")
+
+    if x == 0 and y == 0:
+        print(f"Point({x}and{y}) is on X and Y axis")
+    elif x == 0 and y != O:
+        print(f"Point({x}and{y}) is on X axis")
+    elif x != 0 and y == 0:
+        print((f"Point({x}and{y}) is on Y axis"))
+    elif x != 0 and y != 0:
+        print((f"Point({x}and{y}) is not on only axis")) 
