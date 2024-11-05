@@ -1,6 +1,7 @@
 import converters
 
 print('### Test converters')
-print(f'Three meters is {converters.m_to_cm(3)}cm')
-
-
+centimeters = 300 
+print(f'300 cemeters is {converters.cm_to_inch(3)} cm')
+inches = converters.cm_to_inch(centimeters)
+print(f'{centimeters} cm is {inches} inches')
