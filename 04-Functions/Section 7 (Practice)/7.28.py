@@ -1,3 +1,5 @@
+n = int(input('Enter a number: '))
+
 def factorial(n):
     # 0! = 1, 1! = 1
     if n == 0 or n == 1:
@@ -8,6 +10,5 @@ def factorial(n):
         return n * factorial(n-1)
 
 # Calculate factorial of 5
-n = int(input('Enter a number: '))
 result = factorial(n)
 print(f"The factorial of {n} is: {result}")
