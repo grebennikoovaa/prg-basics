@@ -1,4 +1,3 @@
-palindrome = input('Enter: ')
 
 def f(palindrome):
     expr = ""
@@ -9,4 +8,8 @@ def f(palindrome):
         return True
     else: 
         return False
-print(f(palindrome))
+
+
+if __name__ == "__main__" :
+   print(f("radar"))
+   print(f("name"))
