@@ -1,7 +1,7 @@
 def f(text):
     result = ""
     for char in text:
-        result = result + char + '-'
+        result = result + char + "-"
     if result:
         result = result[:-1]
     return result
