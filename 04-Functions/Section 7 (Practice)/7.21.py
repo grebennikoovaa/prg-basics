@@ -5,5 +5,5 @@ def f(name):
         acronym += char[0].upper()
     return acronym 
     
-if __name__ == "__main__":
-    print(f("Internet of Things"))
+    
+print(f("Internet of Things"))
