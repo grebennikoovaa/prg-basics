@@ -11,5 +11,5 @@ print('Last value', arr[-1])
 print('Last but one value', arr[4])
 print('Sum of the first and last value', arr[0] + arr[-1])
 print('Middle value', len(arr)/2)
-for line in arr:
-    print(line)
+for i in arr:
+    print(i)

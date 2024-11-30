@@ -29,6 +29,6 @@ print('TEST STATISTICS')
 print('===============')
 print('Number of questions:', question_number)
 print('Number of correct answers:', correct_answers)
-print('Number of correct answers:', incorrect_answers)
+print('Number of incorrect answers:', incorrect_answers)
 print('Percentage of correct answers:', per)
 
