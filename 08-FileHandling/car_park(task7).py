@@ -1,10 +1,7 @@
-###
-# Reads the entire contents of a file
-#
 def read_from_file(name):
-   with open('countries.txt', 'r') as file:
-      content = file.read()
-   return content
+    with open('car_park.txt', 'r') as file:
+        content = file.read()
+    return content
 
 # reads the entire file
 file_content = read_from_file('countries.txt')
@@ -15,6 +12,7 @@ file_lines = file_content.splitlines()
 file_lines.sort(reverse=False)
 
 # prints the array
+total = 0
 for line in file_lines:
-   print(line)
-   
+   total += 1
+   print(total, line)
