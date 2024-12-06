@@ -269,8 +269,6 @@ stalj@uek.krakow.pl
          add_...
    ```
 
-1. Na podstawie pliku txt, zapisz części zawartości do plików o nazwach*1, *2, itd.
-
 ## 3. Using Regular Expressions
 
 1. Regular expressions (regex) are sequences of characters that define a search pattern. They are used to find, match, and manipulate text. Regular expressions provide a powerful way to perform complex text processing, such as searching for specific patterns in a string, validating input, replacing text, or extracting information from large volumes of data.
@@ -299,6 +297,11 @@ stalj@uek.krakow.pl
    ```
 
 1. A file report.txt contains an email with shopping report. Write a program that calculates the total value of money spent.
+
+
+   > Hint: To open and read a text file that contains special characters (like the Euro sign €), you need to ensure that the file is read using the correct character encoding. The most common encoding for such cases is UTF-8, which supports a wide range of characters, including special symbols. Here is an example use of the open() function:\
+   open("example.txt", "r", encoding="utf-8")
+
 
    ```python
    ###
@@ -401,7 +404,7 @@ stalj@uek.krakow.pl
    * email_subject()
    * email_body()
 
-1. Write a program that calculates the number of lines, characters and words for any text file. The user enters the name of the file from the keyboard. Use a try-except block to avoid interrupting your program when the user enters a filename that doesn't exist. Print the result of the calculation. Sample result:
+1. Write a program that calculates the number of lines, characters and words for any text file. The user enters the name of the file from the keyboard. Use a try-except block to avoid interrupting your program when the user enters a filename that doesn't exist. Print the result of the calculation. To check if the program is working correctly, find 3 text files on the Internet and use them to test the program.Sample result:
 
    ```
    File name: books.txt
@@ -435,3 +438,13 @@ stalj@uek.krakow.pl
       ...
       ...
       ```
+
+1. The file books.csv contains a list of books. Write a program that copies the book data from a given genre to its corresponding file. Use functions to divide the program into logical parts.
+
+   ```
+   Genre --> Filename
+   Fantasy --> books_fantasy.txt
+   Historical --> books_historical.txt
+   Romance --> books_romance.txt
+   Classic --> books_classic.txt  
+   ```
