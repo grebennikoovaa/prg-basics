@@ -16,7 +16,7 @@ discount_list = {}
 for key, value in price_list.items():
     discount = round((90*value)/100, 2)
     discount_list[key] = discount
-print(f"\nProducts and their prices after the 10% discount: {discount_list}")
+print(discount_list)
 
 total_discount_list = sum(discount_list.values())
 print(total_discount_list)
