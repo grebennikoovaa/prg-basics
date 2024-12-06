@@ -15,7 +15,14 @@ cards = queue.LifoQueue()
 # adds elements to the top of the stack
 cards.put('King of Hearts \u2665')    
 cards.put('Queen of Diamonds \u2666')  
-cards.put('Jack of Spades \u2660')     
+cards.put('Jack of Spades \u2660')
+cards.put('9 \u2665')
+cards.put('8 \u2663')  
+cards.put('7 \u2666')   
+cards.put('4 \u2660')
+cards.put('3 \u2665')
+cards.put('2 \u2663')   
+cards.put('1 \u2660')
 
 ## prints number of elements of the stack
 print('Number of stack elements:', cards.qsize())
@@ -29,3 +36,5 @@ while not cards.empty():
 Note the order of the printed elements.
 The last added element is printed first.
 """
+
+
