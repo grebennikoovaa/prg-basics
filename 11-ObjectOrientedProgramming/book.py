@@ -30,15 +30,18 @@ class Book():
 
 def main():
     # object creation based on the Book class
-    favourite_book = Book(
-        "Harry Potter and the Philosopher's Stone",
-        "J. K. Rowling", 223, 23)
+    favourite_book = Book("Harry Potter and the Philosopher's Stone","J. K. Rowling", 223, 23)
+    favourite_book1 = Book("Where the Crawdads Sing", "Delia Owens", 429, 23) 
 
     # object manipulation
     favourite_book.open()
     favourite_book.change_page(15)
     favourite_book.display_info()
     favourite_book.close()
+    favourite_book1.open()
+    favourite_book1.change_page(45)
+    favourite_book1.display_info()
+    favourite_book1.close()
 
 if __name__ =="__main__":
     main()
