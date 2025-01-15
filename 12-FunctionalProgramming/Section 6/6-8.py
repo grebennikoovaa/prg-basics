@@ -9,4 +9,4 @@ min_30 = list(filter(min_pts(30), results))
 
 print(min_70)
 print(min_40)
-print(min_30)
+print(min_30) 

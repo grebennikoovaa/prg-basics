@@ -8,4 +8,4 @@ def calculate(score):
     return result
 
 final = list(map(calculate, players_result))
-print(final)
+print(final) 
