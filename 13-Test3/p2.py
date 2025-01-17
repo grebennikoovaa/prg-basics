@@ -6,3 +6,4 @@ def f(x,y,digit):
     return counter
 
 print(f(10, 15, 1))
+print(f(23, 45, 4))
